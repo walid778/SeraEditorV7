@@ -154,10 +154,10 @@ class _AppEntryState extends State<AppEntry> {
       );
     }
 
-    if (isLicenseValid == true) {
+    if (isLicenseValid == false) {
       return const HomePage();
     }
-
+//flutter build web --release --base-href "/SeraEditorV7/"
     return Scaffold(
       body: SafeArea(
         child: Center(
